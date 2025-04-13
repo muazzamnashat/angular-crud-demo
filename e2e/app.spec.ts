@@ -9,6 +9,6 @@ test.describe('Angular CRUD Demo', () => {
     
     // Basic assertion to ensure the page loaded
     const title = await page.title();
-    expect(title).toBeTruthy();
+    expect(title).toContain('Angular CRUD Memo');
   });
 }); 
